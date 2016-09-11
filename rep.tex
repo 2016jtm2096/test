@@ -1,0 +1,214 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}%
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+
+\begin{document}
+\centering
+\textbf{\Huge{Assignment Report}}
+\vspace{10.3mm}
+
+\textbf{\LARGE ELP-718 Telecom Software Lab}
+\vspace{11mm}
+
+\includegraphics[scale=0.8]{iitdelhi_logo.jpg}
+\vspace{11mm}
+
+
+\centering
+\Large SEMESTER:- I\\
+
+YEAR:- M.Tech (2016-17)\\
+\vspace{10mm}
+Name:- VIVEK SINGH\\
+Entry Number:- JTM162090\\
+\vspace{10mm}
+Programming Assignment no:- 4\\
+Due Date:- August 16, 2016 
+
+
+
+
+
+
+
+
+\newpage
+
+\tableofcontents
+\newpage
+\section{Introduction}
+\flushleft
+\textbf{A file} represents a sequence of bytes, regardless of it being a text file or a binary file. C programming language provides access on high level functions as well as low level (OS level) calls to handle file on your storage devices. This chapter will take you through the important calls for file management.\\
+\textbf{Makefiles} are a simple way to organize code compilation. This tutorial does not even scratch the surface of what is possible using make, but is intended as a starters guide so that you can quickly and easily create your own makefiles for small to medium-sized projects.
+
+
+
+\newpage
+\section{Problem statement}
+
+
+
+
+
+\subsection{PS1}
+\begin{flushleft}
+
+
+In this program, I calculate the frequency of given words in given text file and called the main function using makefile.  
+\end{flushleft}
+\subsection{PS2}
+\begin{flushleft}
+In this program, I made a file "DATABASE.TXT" to read the details of employees and generate a file "LIST.TXT" having the details about the number of employees of each designation.
+\end{flushleft}
+
+\newpage
+\centering
+\section{Assumptions}
+\begin{itemize}
+
+
+\item \underline{Assumption for Problem statement 1}\\
+\vspace{5mm}
+Frequency of given words and frequency after eliminating given words has followed.
+
+
+
+\end{itemize}
+\begin{itemize}
+\item \underline{Assumption for Problem statement 2}\\
+\vspace{5mm}
+Details of employees(Name, Employee ID , Designation) have been followed.
+\end{itemize}
+
+
+\newpage
+\section{\LARGE Implementation}
+
+
+
+\bigskip
+
+
+
+
+\subsection{Problem 1}
+\begin{itemize}
+\item\textbf{Sub program Name}
+
+{Calculating the frequency of given words in text file}
+\item\textbf{Name and types of parameters} \\
+Parameters are n K i nneg npos p time array.
+
+\item\textbf{Input}
+ Each test case consists of two lines. The first line has two space-separated integers, N  (incoming passengers for the ride) and K(the cancellation threshold). The second line contains  N space-separated integers (a1,a2,a3...an) describing the arrival times for each passenger.\\
+
+   
+
+\item\textbf{Ouput}
+Print the profit in rupees as Rs.PROFIT.
+
+Description of the information returned 
+\item\textbf{Algorithm}
+\begin{itemize}
+\item First we have defined the library files in C.
+\item Then we have initialized the variables. 'n' stands for no of passengers , 'K' stands for thed threshold no of passengers which the ferry would carry, 'p' is the profit earned.  
+\item n-neg represents no of passengers who have arrived before or at the departure time of the ferry.
+\item n-pos represents no of passengers who have arrived after departure time of the ferry.
+\item enter no of passengers and threshold.
+\item initializing the time array
+\item now count the no of passengers who have arrived before or at the departure time of the ferry and no of passengers who have arrived after departure time of the ferry.
+\item if the no of passengers are greater than the threshold value then profit will be earned only when the no of passengers who have arrived before the departure time of ferry are greater than the threshold value.\\
+
+\end{itemize}
+
+
+\end{itemize}
+\subsection{Problem 2}
+\begin{itemize}
+
+
+\item\textbf{Sub program Name}\\
+{Program which Read a file "DATABASE.TXT" and generate a file "LIST.TXT" having the details about the number of employees of each designation}
+\item\textbf{Name and types of parameters} \\
+Parameters used are D M Y D1 M1 Y1 fine.
+\item\textbf{Input}
+Contains the details of employees of the company like Name, Employee ID, Designation.
+
+
+
+ 
+
+\item\textbf{Ouput}
+\begin{itemize}
+\item DATABASE.TXT contains the name,age,salary
+\item List.txt contains the designation like trainee,manager,project leader,security
+
+
+\end{itemize}
+\item\textbf{Algorithm}
+\begin{itemize}
+\item  First we have defined the library files in C.
+\item  Then we have initialized the variables.name,EMPID,designation stands for name ,employee ID and designation.
+\item Read a file DATABASE.TXT and generate a file List.txt 
+\item Enter the details of employees of company like Name, Employee ID, Salary
+\item Now in the list.txt file we generate a various designations like  Trainee,Manager,Project-leader,Security
+\item 
+\end{itemize}
+
+
+
+\end{itemize}
+\centering
+
+
+\newpage
+\centering
+
+
+
+
+
+\newpage
+\section{Test Description and Results}
+\begin{flushleft}
+
+The results obtained can be seen from the screenshots taken.
+\end{flushleft}
+
+\newpage
+
+\section{Screenshots}
+\begin{flushleft}
+
+
+
+
+\vspace{2mm}
+
+
+
+
+\Large{PS2}
+
+\includegraphics[scale=0.5]{ps2.jpg}
+
+\end{flushleft}
+\newpage
+\section{References and Citations}
+\begin{itemize}
+\item\url{http://quiz.geeksforgeeks.org/}
+\item\url{https://www.cluster2.hostgator.co.in/files/writeable/uploads/hostgator99706/file/letusc-yashwantkanetkar.pdf}
+\end{itemize}
+\newpage
+\section{Epilogue}
+\begin{enumerate}
+\item 
+
+
+
+
+  
+\end{enumerate}
+\end{document}
+
